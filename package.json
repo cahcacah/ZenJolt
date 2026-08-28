@@ -1,0 +1,25 @@
+{
+    "name": "zenjolt",
+    "version": "1.0.0",
+    "description": "ZenJolt - Node.js REST API",
+    "main": "src/server.js",
+    "scripts": {
+        "start": "node src/server.js",
+        "dev": "nodemon src/server.js",
+        "test": "jest",
+        "test:watch": "jest --watch"
+    },
+    "keywords": ["nodejs", "express", "api", "zenjolt"],
+    "author": "irenascent",
+    "license": "MIT",
+    "dependencies": {
+        "express": "^4.18.2",
+        "cors": "^2.8.5",
+        "morgan": "^1.10.0"
+    },
+    "devDependencies": {
+        "jest": "^29.7.0",
+        "nodemon": "^3.0.1",
+        "supertest": "^6.3.3"
+    }
+}
